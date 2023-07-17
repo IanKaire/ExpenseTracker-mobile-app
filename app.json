@@ -7,7 +7,7 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.jpg",
+      "image": "./assets/splash.png",
       "resizeMode": "cover",
       "backgroundColor": "#2d0689"
     },
@@ -23,10 +23,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.edwinkaire.expenseTracker"
     },
     "web": {
       "favicon": "./assets/icon.png"
+    },
+    "extra": {
+      "URL": "https://expensetracker-420ea-default-rtdb.firebaseio.com/",
+      "eas": {
+        "projectId": "50141260-be3c-4e2b-89ea-17a3c21501e5"
+      }
     }
   }
 }
